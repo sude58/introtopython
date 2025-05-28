@@ -1,0 +1,5 @@
+original = (1, 2, 3, 4, 5)
+list_original = list(original)
+list_original.reverse()
+final_tuple = tuple(list_original[1:-1])
+print(final_tuple)
